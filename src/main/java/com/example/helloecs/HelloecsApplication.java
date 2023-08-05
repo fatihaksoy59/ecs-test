@@ -18,7 +18,7 @@ public class HelloecsApplication {
 
   @GetMapping
   public String applicationStatus() {
-    return "Application is up and running abcde!";
+    return "ROADMAPE is up and running abcde!";
   }
 
   @GetMapping("/{name}")
